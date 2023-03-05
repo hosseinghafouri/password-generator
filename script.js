@@ -34,5 +34,8 @@ clipboard.addEventListener("click", () => {
   }, 2000);
 });
 
+document.documentElement.style.width = (localStorage.popupWidth || 700) + 'px';
+document.documentElement.style.height = (localStorage.popupHeight || 600) + 'px';
+
 });
 

@@ -1,18 +1,19 @@
 body {
   background: #FFF;
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
   display: flex;
   background: #efefef;
-
   flex-direction: column;
   text-align: center;
-  width: 30%;
+  width: 100%;
   border-radius: 15px;
-  margin: 10rem auto;
-  padding: 3rem;
+  /* margin: 10rem auto; */
+  padding: 38rem;
   padding-bottom: 1%;
   box-shadow: 2px 3px 10px #cacaca;
 }

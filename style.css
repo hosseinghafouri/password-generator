@@ -1,5 +1,5 @@
 body {
-  background: #FFF;
+  background: #efefef;
   font-family: sans-serif;
 }
 
@@ -9,12 +9,11 @@ body {
 
   flex-direction: column;
   text-align: center;
-  width: 30%;
+  width: 100%;
   border-radius: 15px;
-  margin: 10rem auto;
-  padding: 3rem;
+  margin: 0 auto;
   padding-bottom: 1%;
-  box-shadow: 2px 3px 10px #cacaca;
+  /* box-shadow: 2px 3px 10px #cacaca; */
 }
 
 .container h2 {
@@ -119,12 +118,12 @@ input[type="checkbox"] {
 
 @media (max-width: 800px) and (min-width: 500px) {
   .container {
-    width: 65%;
+    width: 100%;
   }
 }
 
 @media (max-width: 499px) {
   .container {
-    width: 98%;
+    width: 100%;
   }
 }
